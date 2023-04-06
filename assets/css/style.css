@@ -1,0 +1,40 @@
+.main-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background-color: #f1fffa;
+}
+
+.card {
+  width: 40vh;
+  padding: 10px;
+  background-color: #c38d94;
+}
+
+.card input {
+  border-radius: 0%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+
+.color {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 20px;
+}
+.colordot {
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 90%;
+  border-style: solid;
+  border-width: thin;
+}
